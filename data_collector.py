@@ -31,7 +31,7 @@ FORECAST_URL = "https://api.openweathermap.org/data/2.5/forecast"
 DB_PATH      = Path(__file__).parent / "weather.db"
 SCHEMA_PATH  = Path(__file__).parent / "setup_database.sql"
 
-CITIES   = ["Berlin", "München", "Hamburg", "Wien", "Zürich"]
+CITIES   = ["Berlin", "Heilbronn", "Hamburg", "Wien", "Zürich"]
 INTERVAL = 30  # Minuten
 
 # ---------------------------------------------------------------------------
