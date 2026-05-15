@@ -32,7 +32,7 @@ DB_PATH      = Path(__file__).parent / "weather.db"
 SCHEMA_PATH  = Path(__file__).parent / "setup_database.sql"
 
 CITIES   = ["Berlin", "Heilbronn", "Hamburg", "Wien", "Zürich"]
-INTERVAL = 30  # Minuten
+INTERVAL = 360 #Minuten
 
 # ---------------------------------------------------------------------------
 # Logging
